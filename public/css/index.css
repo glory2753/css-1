@@ -1,0 +1,149 @@
+:root {
+    background: white;
+}
+
+* {
+    color: black;
+}
+
+h1 {
+    background: blue;
+}
+
+.green {
+    color: green;
+}
+
+#blue {
+    color: blue; 
+        }
+
+.box > p {
+            background: red;
+        }
+
+        .box {
+            background: green;
+        }
+
+.brown {
+            background: brown;
+            color: white;
+        }
+
+ul > li {
+            background: red;
+        }
+
+.header-button ~ * {
+            background: red;
+        }
+
+.susid + p {
+            background: blue;
+            color: white;
+        }
+
+.salo, #bread {
+            background: yellow;
+        }
+
+.first-task ul li:first-child {
+            color: white;
+        }
+
+.second-task ul li:first-child {
+            color: yellow;
+        }
+
+.third-task ul:nth-child(2) li:first-child {
+            background: yellow;
+        }
+
+.four-task ul li:last-child {
+            background: yellow;
+        }
+
+.five-task ul:last-child li:last-child {
+            color: white;
+        }
+
+ .only-child-task div:only-child {
+            color: red;
+        }
+
+.seven-task p:first-of-type {
+            background: red;
+        }
+
+ .eight-task p:last-of-type {
+            background: red;
+        }
+
+.nine-task p:only-of-type {
+            background: yellow;
+        }
+
+a[href] {
+            color: white;
+        }
+
+li[value] {
+            color: yellow;
+        }
+
+ li[value='3'] {
+            background: red;
+        }
+
+button.primary {
+            background: blue;
+            color: white;
+        }
+
+[class^='secondary'] {
+            background: red;
+            color: white;
+        }
+
+ [class^='b'] {
+            color: green;
+            background: white;
+        }
+
+ [class*='on'] {
+            color: green;
+            background: white;
+        }
+
+ [class$='s'] {
+            color: blue;
+            background: white;
+        }
+
+ h2::first-letter, h3::first-letter {
+            color: red;
+        }
+
+ p::first-line {
+            background: yellow;
+        }
+
+ input::placeholder {
+            background: red;
+            color: white;
+        }
+
+ li::before {
+            content: "➤"; 
+            margin-right: 5px;
+        }
+
+li::after {
+            content: "➤";
+            margin-left: 5px;
+        }
+
+
+
+
