@@ -26,10 +26,15 @@ h1 {
             background: green;
         }
 
-.brown {
+        .brown {
+            background-color: brown; /* Коричневий фон */
+            color: white; /* Білий колір тексту */
+          }
+
+/* .brown {
             background: brown;
             color: white;
-        }
+        } */
 
 ul > li {
             background: red;
@@ -39,10 +44,15 @@ ul > li {
             background: red;
         }
 
-.susid + p {
+.susid ~ p {
+            background-color: blue; /* Синій фон */
+            color: white; /* Білий текст */
+        }
+
+/* .susid + p {
             background: blue;
             color: white;
-        }
+        } */
 
 .salo, #bread {
             background: yellow;
@@ -101,15 +111,18 @@ button.primary {
             color: white;
         }
 
-[class^='secondary'] {
-            background: red;
-            color: white;
+.lesson-three-task-five > button[class^="secondary"] {
+            background-color: red;
         }
 
- [class^='b'] {
+
+
+.lesson-three-task-six li[class^="b"] {
             color: green;
-            background: white;
+            background-color: white;
         }
+
+
 
  [class*='on'] {
             color: green;
@@ -121,28 +134,35 @@ button.primary {
             background: white;
         }
 
- h2::first-letter, h3::first-letter {
-            color: red;
+.lesson-three-task-nine h2::first-letter,
+.lesson-three-task-nine h3::first-letter {
+          color: red; /* Червоний колір */
         }
 
- p::first-line {
-            background: yellow;
-        }
+ /* h2::first-letter, h3::first-letter {
+            color: red;
+        } */
+
+.lesson-three-task-ten p:first-of-type::first-line {
+        background: yellow;
+     }
 
  input::placeholder {
             background: red;
             color: white;
         }
 
- li::before {
-            content: "➤"; 
+.lesson-three-task-twelve li::before {
+            content: "➤";
             margin-right: 5px;
         }
 
-li::after {
+.lesson-three-task-thirteen li::after {
             content: "➤";
             margin-left: 5px;
         }
+
+
 
 
 
